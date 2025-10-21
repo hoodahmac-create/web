@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>forms</title>
+	</head>
+	<body bgcolor="#c8c7d7">
+	<form>
+		<center><h1><b>Registration Form </b></h1></center>
+		<label><b>First_Name</b></label>&nbsp&nbsp&nbsp
+		<input type="text" name="fname"><br><br>
+		<label><b>Last_Name</b></label>&nbsp&nbsp&nbsp&nbsp
+		<input type="text" name="lname"><br><br>
+		<label><b>Password</b></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="password" name="password"><br><br>
+		<label><b>Address</b></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<textarea name="address" rows="2" cols="40" placeholder="Enter your address" maxlength="500" required>
+        </textarea><br><br>
+		<label><b>Mobile</b></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="number"><br><br>
+		<label><b>E-mail</b></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="mail" name="email"><br><br>
+		<label><b>Date-of-birth</b></label>&nbsp
+		<input type="date" name="date"><br><br>
+		<label><b>Gender</b></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="radio" name="gender" id="male" value="m" checked>
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="f">
+		<label for="female">Female</label><br><br>
+		<label><b>Nationality</b></label>&nbsp&nbsp&nbsp&nbsp&nbsp
+		<select name="nationality">
+			<option value="india">India</option>
+			<option value="saudi arabia">Saudi</option>
+			<option value="palestine">Palestini</option>
+			<option value="other">Other</option>
+		</select><br><br>
+		<fieldset>
+		<legend><b>Languages known</b></legend><br>
+		<input type="checkbox" name="malayalam">
+		<label>Malayalam</label><br>
+		<input type="checkbox" name="english">
+		<label>English</label><br>
+		<input type="checkbox" name="arabic">
+		<label>Arabic</label><br>
+		<input type="checkbox" name="hindi">
+		<label>Hindi</label><br><br>
+		</fieldset><br>
+		<center><p><input type="submit" value="SUBMIT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button type="reset"><b>CANCEL</b></button></p></center>
+	</form>
+	</body>
+</html>
